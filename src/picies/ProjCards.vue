@@ -48,7 +48,7 @@ export default {
                 </div>
             </div>
             <div class="myImg">
-                <img class="w-100" :src="proj.image" alt="">
+                <img class="w-100" :src="proj.image">
             </div>
         </div>
     </div>
