@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.gradino{
+  width: 100%;
+  height: 10rem;
+}
+body{
+  background-color: #31333b
+}
+:root {
+  /* --general-color: #ac59ca; */
+  --js: #f0db4f;
+  --php: #AEB2D5;
+  --vueJs: #41b883;
+  --laravel: #f05340;
+  --bootstrap: #563d7c;
+  --html: #e34c26;
+  --css: #2965f1;
+  --node:  #3c873a;
+  --mysql:  #F29111;
+}
+.JavaScript{
+  color: var(--js) !important;
+}
+.PHP{
+  color: var(--php) !important;
+}
+.VueJs{
+  color: var(--vueJs) !important;
+}
+.Laravel{
+  color: var(--laravel) !important;
+}
+.Bootstrap{
+  color: var(--bootstrap) !important;
+}
+.Html{
+  color: var(--html) !important;
+}
+.CSS{
+  color: var(--css) !important;
+}
+.NodeJs{
+  color: var(--node) !important;
+}
+.MySql{
+  color: var(--mysql) !important;
+}
+.young-serif{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.DynaPuff {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  /* color: #006DCC; */
+}
+.Modak{
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.text-shadow{
+  text-shadow: -10px 5px 20px rgba(0, 0,  0, 0.5);
+}
+.nav-style-one{
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+}
+.nav-style-two{
+  position: fixed;
+  width: 100%;
+  background-color: #222222b1;
+  z-index: 99999;
+}
+.gradino{
+  height: 6rem;
+}
+.indietro{
+  position: fixed;
+  top: 80vh;
+  right: 0;
+}
