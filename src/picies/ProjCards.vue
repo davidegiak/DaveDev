@@ -5,8 +5,7 @@ import { RouterLink } from 'vue-router'
 export default {
     name: 'ProjCards',
     props: {
-        proj: 'string',
-        img: 'string',
+        proj: 'object',
         tech: 'array'
     },
     data() {
@@ -30,7 +29,7 @@ export default {
         <div class="my-card">
             <div class="info flex-column text-center d-flex justify-content-center">
                 <div class="mx-auto">
-                    <h2 class="">{{ proj.title }}</h2>
+                    <h2>{{ proj.title }}</h2>
                     <a target="_blank" class="nav-link text-warning fs-5" :href="proj.git_url">Git Link</a>
                     <div class="mb-3 d-none  d-sm-block">
 
