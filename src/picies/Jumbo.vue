@@ -22,7 +22,7 @@ export default {
             </h2>
         </div>
         <div class="col-6 col-sm-6 col-md-5 col-lg-4">
-            <img class="jumboImg" :src="jumboImg" style="">
+            <img class="jumboImg" src="/public/img/foto_curriculum-no-back.png" style="">
 
         </div>
     </div>
