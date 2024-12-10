@@ -34,7 +34,7 @@ export default {
                             <RouterLink to="/" class="nav-link" :class="this.$route.name == 'home' ? 'text-warning' : ''" >Home</RouterLink>
                         </li>
                         <li class="li-items">
-                            <RouterLink to="/about" class="nav-link" :class="this.$route.name == 'about' ? 'text-warning' : ''" >About</RouterLink>
+                            <RouterLink to="/DaveDev/about" class="nav-link" :class="this.$route.name == 'about' ? 'text-warning' : ''" >About</RouterLink>
                         </li>
                         <li class="li-items">
                             <RouterLink to="/projects" class="nav-link" :class="(this.$route.name == 'projects' || this.$route.name == 'Project') ? 'text-warning' : ''" >Projects</RouterLink>
