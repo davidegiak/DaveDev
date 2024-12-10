@@ -16,7 +16,7 @@ export default {
 
 <template>
   <HeaderApp />
-  <Main/>
+  <!-- <Main/> -->
   <router-view></router-view>
 </template>
 
