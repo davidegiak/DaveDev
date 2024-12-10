@@ -1,10 +1,11 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import HeaderApp  from './components/HeaderApp.vue'
+import Main from './views/Main.vue';
 
 export default {
   name: 'App',
-  components: { HeaderApp },
+  components: { HeaderApp, Main },
   data(){
     return {
 
@@ -15,6 +16,7 @@ export default {
 
 <template>
   <HeaderApp />
+  <Main/>
   <router-view></router-view>
 </template>
 
