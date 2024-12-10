@@ -10,7 +10,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: '/',  //ROTTA CHE COMPARIRà SULL'URL
+      path: '/DaveDev/home',  //ROTTA CHE COMPARIRà SULL'URL
       name: 'home', //NOME DELLA ROTTA
       component: Main, //COMPONENTE COLLEGATO ALLA ROTTA (DEVE ESSERE IMPORTATO)
     },
