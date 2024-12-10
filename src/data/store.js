@@ -63,7 +63,7 @@ let state = reactive({
         title: "Boolzap",
         slug: "Boolzap",
         description: "Ho creato una web app per messaggiare con un layout simile a whatsapp in Vue.Js, Bootstrap5, Html & CSS. Ho implementato la possibilità di cercare e filtrare tra i contatti, mandare messaggi (con possibilità di inserire emoji) con orario attuale reale, al quale si riceverà una risposta preimpostata, i messaggi si possono anche modificare ed eliminare. I messaggi non ci saranno più al refresh della pagina.",
-        image: "/img/boolzap.png",
+        image: "/public/img/boolzap.png",
         technologies: [
             1, 5, 6, 9
         ],
