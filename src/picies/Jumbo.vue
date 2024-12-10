@@ -7,7 +7,7 @@ export default {
     data() {
         return {
             store,
-            jumboImg: '/img/foto_curriculum-no-back.png',
+            jumboImg: 'public/img/foto_curriculum-no-back.png',
         }
     }
 }
