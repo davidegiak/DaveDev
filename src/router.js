@@ -15,7 +15,7 @@ const router = createRouter({
       component: Main, //COMPONENTE COLLEGATO ALLA ROTTA (DEVE ESSERE IMPORTATO)
     },
     {
-      path: '/about',  //ROTTA CHE COMPARIRà SULL'URL
+      path: '/DaveDev/about',  //ROTTA CHE COMPARIRà SULL'URL
       name: 'about', //NOME DELLA ROTTA
       component: About, //COMPONENTE COLLEGATO ALLA ROTTA (DEVE ESSERE IMPORTATO)
     },
