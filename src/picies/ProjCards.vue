@@ -5,8 +5,9 @@ import { RouterLink } from 'vue-router'
 export default {
     name: 'ProjCards',
     props: {
-        proj: 'object',
-        tech: 'array'
+        proj: 'string',
+        tech: 'array',
+        img: 'string',
     },
     data() {
         return {
